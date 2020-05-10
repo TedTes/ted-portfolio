@@ -1,0 +1,212 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    overflow-x:hidden;
+    background:#120136;
+    color:white;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.intro img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+
+}
+.images{
+    position:relative;
+    /* border:white 2px solid; */
+    width:400px;
+}
+.desktop-ecom-image{
+    width:300px;
+    height:200px;
+}
+.mobile-ecom-image{
+    width:130px;
+    height:200px;
+    position:absolute;
+   right:4em;
+   top:3em;
+}
+.logo{
+      color:white;
+     
+      margin-top:1.7em;
+      padding:1em;
+      font-size:.7em;
+      font-weight:bold;
+}
+.container{
+   
+    /* background:url('../images/codelaptop.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width:100vw;
+    color:white;
+    height:100vh;
+    margin:.7em;
+    margin-top:-1em;
+    position:relative;
+    color:white;
+
+}
+.intro{
+    margin:0 auto;
+    margin-top:2em;
+    
+    text-align:center;
+   width:500px;
+   padding-top:3em;
+}
+.intro li h1{
+    font-size:1.2em;
+}
+.side-bar{
+    position:absolute;
+    top:0;
+    left:0;
+    background:black;
+    height:100%;
+    margin-top:7em;
+    /* margin-left:.7em; */
+    width:150px;
+    text-align:center;
+}
+.side-bar .menus{
+padding:0;
+margin:0 auto;
+width:150px;
+margin-top:80%;
+}
+.menus li{
+    margin:1em;
+}
+.menus li a{
+    font-size:.6em;
+    border:solid white 1px;
+    border-radius:5px;
+    padding:.4em .6em;
+    margin-bottom:6em;
+}
+
+li{
+    list-style: none;
+}
+.projects{
+    /* border:white 2px solid; */
+   position:relative;
+    width:900px;
+    padding:2em;
+    margin:0 auto;
+    margin-top:6em;
+    /* background:url('../images/background-proj.jpg') */
+}
+.projects-layout{
+    display:grid;
+    grid-template-columns:repeat(2,auto);
+}
+.project-section-title{
+    text-align:center;
+    font-size:1.1em;
+    font-weight:bold;
+   
+}
+.project-section-title:before{
+position:absolute;
+border:2px solid white;
+background:black;
+width:200px;
+height:100px;
+top:0;
+right:0;
+display:block;
+}
+.tech-stack{
+    display:flex;
+    padding:1em;
+    /* border:white 1px solid; */
+    padding:0;
+}
+.tech-stack li{
+    /* padding:.2em .5em; */
+    padding-left:.4em;
+    padding-right:.4em;
+    border-radius:5px;
+    width:51px;
+    border:white 1px solid;
+    margin-right:.5em;
+    padding-bottom:0;
+    font-size:.8em;
+    text-align:center;
+}
+.description{
+    /* border:2px solid white; */
+    padding:1em;
+    width:310px;
+    height:200px;
+    margin-right:2em;
+    margin-top:6em;
+   
+}
+.contacts{
+    margin-top:8em;
+    /* border:white 2px solid; */
+    height:100vh;
+    /* background:white; */
+    color:white;
+   
+}
+.contacts-card{
+    /* position:relative; */
+    margin:0 auto;
+     /* border:black 2px solid; */
+     border-radius:20px;
+     width:300px;
+     padding-right:3em;
+     text-align:center;
+    
+}
+.contacts-info{
+  
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:1.5em;
+    /* border:white 1px solid; */
+    width:350px;
+    height:350px;
+    margin:0 auto;
+    position:relative;
+}
+
+.contacts-info .phone-no{
+   padding:.7em .8em;
+   border:1px solid black;
+   border-radius:7px;
+   margin-bottom:1.1em;
+}
+.contacts-info .email{
+    padding:.7em .8em;
+    border:1px solid black;
+    border-radius:7px;
+ }
+ footer{
+      /* border:white 2px solid; */
+      width:500px;
+      margin:0 auto;
+      }
+ .tech-stack-img{
+     display:flex;
+     /* justify-content:space-between; */
+}
+ .tech-stack-img li img{
+     width:50px;
+     height:50px;
+     padding:.5em;
+ }
